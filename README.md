@@ -2,5 +2,5 @@
 
 
 Most inspired by: 
-https://github.com/myusuf3/dotfiles
-https://github.com/mathiasbynens/dotfiles
+* https://github.com/myusuf3/dotfiles
+* https://github.com/mathiasbynens/dotfiles
