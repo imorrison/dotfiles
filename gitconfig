@@ -1,0 +1,32 @@
+[user]
+	name = Ian Morrison
+	email = ian.morrison.a@gmail.com
+
+[github]
+    user = imorrison
+
+[color]
+    ui = auto
+    diff = auto
+    status = auto
+    branch = auto
+
+[color "branch"]
+    current = yellow reverse
+    remote = green bold
+    local = blue bold
+
+[color "diff"]
+    meta = blue bold
+    frag = magenta bold
+    old = red bold
+    new = green bold
+
+[push]
+    default = current
+
+[pull]
+    default = current
+
+[core]
+	editor = vim
