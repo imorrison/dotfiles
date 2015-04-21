@@ -16,6 +16,9 @@ set backspace=indent,eol,start
 " Optimize for fast terminal connections
 set ttyfast
 
+" load file type plugins + indentation
+filetype plugin indent on
+
 " Add the g flag to search/replace by default
 set gdefault
 
