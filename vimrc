@@ -1,3 +1,8 @@
+
+" Configure pathogen
+call pathogen#infect()
+call pathogen#helptags()
+
 set nocompatible
 scriptencoding utf8
 
