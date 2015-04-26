@@ -6,6 +6,7 @@ git submodule update
 
 
 echo "Deleting the old files"
+rm ~/.aliases
 rm ~/.gvimrc
 rm ~/.vimrc
 rm ~/.vim
@@ -14,6 +15,7 @@ rm ~/.gitignore
 
 
 echo "Symlinking Files"
+ln -s ~/Github/dotfiles/aliases ~/.aliases
 ln -s ~/Github/dotfiles/gvimrc ~/.gvimrc
 ln -s ~/Github/dotfiles/vim ~/.vim
 ln -s ~/Github/dotfiles/vimrc ~/.vimrc
