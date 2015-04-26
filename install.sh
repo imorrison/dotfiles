@@ -6,12 +6,14 @@ git submodule update
 
 
 echo "Deleting the old files"
+rm ~/.gvimrc
 rm ~/.vimrc
 rm ~/.vim
 rm ~/.gitconfig
 
 
 echo "Symlinking Files"
+ln -s ~/Github/dotfiles/gvimrc ~/.gvimrc
 ln -s ~/Github/dotfiles/vim ~/.vim
 ln -s ~/Github/dotfiles/vimrc ~/.vimrc
 ln -s ~/Github/dotfiles/gitconfig ~/.gitconfig
