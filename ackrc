@@ -1,0 +1,5 @@
+# Alwasy use color
+--color
+
+# Commonly ignored directories
+--ignore-dir=node_modules/
