@@ -1,0 +1,5 @@
+Include homebrew setup
+Add helpers for curl (and maybe jq, for json)
+Add history grep helpers
+Add file searching helpers
+Tmux
