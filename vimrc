@@ -37,6 +37,9 @@ let mapleader=","
 set binary
 set noeol
 
+" Dont create a swapfile
+set noswapfile
+
 " Turn on Syntax Highlighting
 syntax on
 
