@@ -66,5 +66,5 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
 let g:syntastic_javascript_checkers = ['jscs', 'jshint']
-
+let g:ycm_register_as_syntastic_checker = 0 
 
