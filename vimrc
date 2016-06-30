@@ -55,16 +55,3 @@ set tabstop=4 shiftwidth=4          " a tab is two spaces (or set this to 4)
 set expandtab                       " use spaces, not tabs
 
 
-" syntastic
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
-
-let g:syntastic_javascript_checkers = ['jscs', 'jshint']
-let g:ycm_register_as_syntastic_checker = 0 
-
